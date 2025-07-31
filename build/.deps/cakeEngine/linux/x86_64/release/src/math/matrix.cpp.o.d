@@ -1,6 +1,4 @@
 {
-    depfiles_gcc = "matrix.o: src/math/matrix.cpp\
-",
     values = {
         "/usr/bin/gcc",
         {
@@ -11,6 +9,8 @@
             "-DNDEBUG"
         }
     },
+    depfiles_gcc = "matrix.o: src/math/matrix.cpp src/math/matrix.hpp src/math/vector.hpp\
+",
     files = {
         "src/math/matrix.cpp"
     }

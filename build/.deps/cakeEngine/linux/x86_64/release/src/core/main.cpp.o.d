@@ -2,8 +2,6 @@
     files = {
         "src/core/main.cpp"
     },
-    depfiles_gcc = "main.o: src/core/main.cpp src/core/../math/matrix.hpp\
-",
     values = {
         "/usr/bin/gcc",
         {
@@ -13,5 +11,7 @@
             "-O3",
             "-DNDEBUG"
         }
-    }
+    },
+    depfiles_gcc = "main.o: src/core/main.cpp src/core/../math/matrix.hpp  src/core/../math/vector.hpp\
+"
 }

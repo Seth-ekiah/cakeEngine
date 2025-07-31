@@ -1,0 +1,10 @@
+{
+    errdata = "In file included from src/math/matrix.cpp:1:\
+src/math/matrix.hpp: In function ‘std::ostream& operator<<(std::ostream&, const Matrix3x3f&)’:\
+src/math/matrix.hpp:16:1: warning: no return statement in function returning non-void [-Wreturn-type]\
+   16 | }\
+      | ^\
+At global scope:\
+cc1plus: note: unrecognized command-line option ‘-Wno-gnu-line-marker’ may have been intended to silence earlier diagnostics\
+"
+}
